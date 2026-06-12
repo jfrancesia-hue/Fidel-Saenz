@@ -33,10 +33,11 @@ Se rehizo la dirección visual de la demo porque la versión anterior no alcanza
   - responsive mobile.
 - Se redujo la sensación de template/dashboard genérico.
 - Se incorporaron imágenes reales locales:
-  - Plaza 25 de Mayo / Catamarca Capital como imagen hero.
-  - Fidel Sáenz en agenda pública de vivienda como prueba institucional.
+  - Foto real provista por Jorge como hero principal (`assets/candidate/fidel-04.jpg`).
+  - Fotos reales de redes provistas por Jorge para perfil, gestión y galería territorial.
+  - Plaza 25 de Mayo / Catamarca Capital como soporte de identidad.
   - Catedral/centro histórico como identidad territorial.
-- Se documentaron fuentes en `ASSET_SOURCES.json` e `IMAGE_SOURCE_AUDIT.json`.
+- Se documentaron fuentes en `ASSET_SOURCES.json`, `IMAGE_SOURCE_AUDIT.json` y `CANDIDATE_ASSETS.json`.
 
 ## Archivos
 
@@ -51,6 +52,8 @@ Se rehizo la dirección visual de la demo porque la versión anterior no alcanza
 - `ASSET_SOURCES.json`
 - `IMAGE_SOURCE_AUDIT.json`
 - `assets/photos/`
+- `assets/candidate/`
+- `CANDIDATE_ASSETS.json`
 
 ## Verificación
 

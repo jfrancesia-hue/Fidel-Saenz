@@ -3,18 +3,24 @@
   "missing": [],
   "dupIds": [],
   "missingAnchors": [],
-  "profileOk": true,
+  "candidateOk": true,
+  "designOk": true,
   "refs": [
     "styles.css",
-    "assets/photos/catamarca-plaza-25.webp",
-    "assets/photos/fidel-saenz-catamarca-rtv.jpeg",
+    "assets/candidate/fidel-04.jpg",
+    "assets/candidate/fidel-02.jpg",
+    "assets/candidate/fidel-03.jpg",
     "assets/photos/catamarca-catedral.webp",
     "assets/photos/catamarca-catedral-detail.webp",
+    "assets/candidate/fidel-04.jpg",
+    "assets/candidate/fidel-02.jpg",
+    "assets/candidate/fidel-05.jpg",
+    "assets/photos/catamarca-plaza-25.webp",
     "script.js"
   ],
   "sizes": {
-    "html": 12778,
-    "css": 21341,
+    "html": 14085,
+    "css": 23396,
     "js": 6968
   }
 }
