@@ -4,14 +4,15 @@
   "dupIds": [],
   "missingAnchors": [],
   "premiumOk": true,
+  "mobileNavOk": true,
   "jsOk": true,
   "refs": [
     "styles.css",
     "script.js"
   ],
   "sizes": {
-    "html": 13276,
-    "css": 24163,
-    "js": 9999
+    "html": 13593,
+    "css": 25701,
+    "js": 10753
   }
 }

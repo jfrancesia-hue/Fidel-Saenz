@@ -18,6 +18,8 @@ Se rediseñó la demo de campaña con una capa visual premium y mejor mantenibil
   - Open Graph;
   - Twitter card.
 - Se agregó una capa `PREMIUM REDESIGN 2026-06-12` en CSS.
+- Se agregó menú mobile real con `nav-toggle`, cierre por link y tecla Escape.
+- Se auditó GitHub: `origin/main` sigue en `552d18e Add campaign demo`; no se detectaron commits nuevos al momento de revisar.
 - Se mejoró:
   - hero;
   - navegación;
@@ -40,6 +42,7 @@ Se rediseñó la demo de campaña con una capa visual premium y mejor mantenibil
 - `AUDIT_REPORT.md`
 - `AUDIT_REPORT.json`
 - `VERIFY_REPORT.json`
+- `REMOTE_AUDIT_REPORT.json`
 
 ## Verificación
 
@@ -47,6 +50,7 @@ Se rediseñó la demo de campaña con una capa visual premium y mejor mantenibil
 
 - `ok: true`
 - `premiumOk: true`
+- `mobileNavOk: true`
 - `jsOk: true`
 - anchors faltantes: 0
 - ids duplicados: 0

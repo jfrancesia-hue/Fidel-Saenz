@@ -33,23 +33,27 @@
   <nav class="nav" aria-label="Navegación principal">
     <div class="wrap">
       <a class="brand" href="#top" aria-label="Fidel Sáenz inicio"><span class="brand-mark">FS</span><span>Fidel Sáenz</span></a>
-      <div class="nav-links">
+      <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="primaryNav" aria-label="Abrir menú">
+        <span></span><span></span><span></span>
+      </button>
+      <div class="nav-links" id="primaryNav">
         <a href="#gestion">Gestión</a>
         <a href="#propuestas">Propuestas</a>
         <a href="#territorio">Territorio</a>
+        <a href="#simulador">Simulador</a>
         <a href="#sumate">Sumate</a>
         <a class="command-only" href="#comando">Comando</a>
       </div>
-      <a class="btn" href="#sumate">Sumate</a>
+      <a class="btn nav-cta" href="#sumate">Sumate</a>
     </div>
   </nav>
 
   <main id="top" class="site-main">
     <section class="hero">
       <div class="hero-copy reveal">
-        <span class="eyebrow">San Fernando del Valle de Catamarca 2027</span>
-        <h1>La ciudad que viene se construye</h1>
-        <p>Una plataforma de campaña para mostrar gestión, ordenar propuestas y medir el crecimiento territorial barrio por barrio.</p>
+        <span class="eyebrow">San Fernando del Valle de Catamarca · Capital 2027</span>
+        <h1>La ciudad que viene se construye barrio por barrio</h1>
+        <p>Una demo premium para presentar gestión, ordenar propuestas y visualizar el crecimiento territorial con datos claros, mapas y simulación de campaña.</p>
         <div class="hero-actions">
           <a class="btn" href="#territorio">Ver mapa territorial</a>
           <a class="btn secondary" href="#simulador">Proyectar crecimiento</a>

@@ -221,6 +221,21 @@ const prefersReduced = window.matchMedia('(prefers-reduced-motion: reduce)').mat
       });
     }
 
+    function initMobileNav() {
+      const nav = document.querySelector('.nav');
+      const toggle = document.querySelector('.nav-toggle');
+      const links = document.querySelectorAll('#primaryNav a');
+      if (!nav || !toggle) return;
+      function setOpen(open) {
+        nav.classList.toggle('menu-open', open);
+        toggle.setAttribute('aria-expanded', String(open));
+        toggle.setAttribute('aria-label', open ? 'Cerrar menú' : 'Abrir menú');
+      }
+      toggle.addEventListener('click', () => setOpen(!nav.classList.contains('menu-open')));
+      links.forEach(link => link.addEventListener('click', () => setOpen(false)));
+      document.addEventListener('keydown', event => { if (event.key === 'Escape') setOpen(false); });
+    }
+
     function initModeToggle() {
       const publicBtn = document.getElementById('modePublic');
       const commandBtn = document.getElementById('modeCommand');
