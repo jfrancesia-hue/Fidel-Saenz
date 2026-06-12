@@ -3,16 +3,19 @@
   "missing": [],
   "dupIds": [],
   "missingAnchors": [],
-  "designOk": true,
-  "mobileOk": true,
-  "jsOk": true,
+  "realImagesOk": true,
+  "cssOk": true,
   "refs": [
     "styles.css",
+    "assets/photos/catamarca-plaza-25.webp",
+    "assets/photos/fidel-saenz-catamarca-rtv.jpeg",
+    "assets/photos/catamarca-catedral.webp",
+    "assets/photos/catamarca-catedral-detail.webp",
     "script.js"
   ],
   "sizes": {
-    "html": 11067,
-    "css": 17236,
+    "html": 11740,
+    "css": 20098,
     "js": 6968
   }
 }

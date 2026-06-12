@@ -1,0 +1,38 @@
+[
+  {
+    "name": "fidel-saenz-catamarca-rtv.jpeg",
+    "url": "https://catamarcartv.com/wp-content/uploads/2026/05/IMG_5440.jpeg",
+    "source": "Catamarca RTV - nota Fidel Sáenz expuso en Córdoba",
+    "status": 200,
+    "path": "assets/photos/fidel-saenz-catamarca-rtv.jpeg",
+    "bytes": 175161,
+    "contentType": "image/jpeg"
+  },
+  {
+    "name": "catamarca-catedral.webp",
+    "url": "https://turismo.apps.cc.gob.ar/assets/d4035726-b1b1-4bf1-b87f-a96ca8058686?width=1200&quality=82&format=webp",
+    "source": "Turismo SFVC - Catedral Basílica Nuestra Señora del Valle",
+    "status": 200,
+    "path": "assets/photos/catamarca-catedral.webp",
+    "bytes": 172100,
+    "contentType": "image/webp"
+  },
+  {
+    "name": "catamarca-plaza-25.webp",
+    "url": "https://turismo.apps.cc.gob.ar/assets/fd57d6a6-4e45-4b43-90ff-a4bbaa94e7d4?width=1200&quality=82&format=webp",
+    "source": "Turismo SFVC - Plaza 25 de Mayo",
+    "status": 200,
+    "path": "assets/photos/catamarca-plaza-25.webp",
+    "bytes": 178750,
+    "contentType": "image/webp"
+  },
+  {
+    "name": "catamarca-catedral-detail.webp",
+    "url": "https://turismo.apps.cc.gob.ar/assets/9e509ca2-da15-4445-871e-2fe850dacf84?width=1000&quality=82&format=webp",
+    "source": "Turismo SFVC - Catedral Basílica Nuestra Señora del Valle",
+    "status": 200,
+    "path": "assets/photos/catamarca-catedral-detail.webp",
+    "bytes": 132692,
+    "contentType": "image/webp"
+  }
+]

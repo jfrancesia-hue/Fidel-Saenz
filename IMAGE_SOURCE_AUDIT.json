@@ -1,0 +1,54 @@
+[
+  {
+    "url": "https://portal.catamarca.gob.ar/noticias/fidel-saenz-afirmo-que-no-hay-desarrollo-sin-obra-publica-y-defendio-el-rol-del-estado-en-las-politicas-de-vivienda",
+    "status": 403,
+    "title": "Just a moment...",
+    "ogImage": null,
+    "twitterImage": null,
+    "images": []
+  },
+  {
+    "url": "https://portal.catamarca.gob.ar/noticias/el-gobierno-entrego-122-viviendas-sociales-en-la-capital",
+    "status": 403,
+    "title": "Just a moment...",
+    "ogImage": null,
+    "twitterImage": null,
+    "images": []
+  },
+  {
+    "url": "https://portal.catamarca.gob.ar/noticias/fidel-saenz-expuso-en-cordoba-sobre-el-rol-estrategico-de-la-vivienda-en-el-desarrollo-economico-y-social",
+    "status": 403,
+    "title": "Just a moment...",
+    "ogImage": null,
+    "twitterImage": null,
+    "images": []
+  },
+  {
+    "url": "https://sfvc.tur.ar/atractivos/catedral-basilica-nuestra-senora-del-valle/",
+    "status": 200,
+    "title": "Catedral Basílica Nuestra Señora del Valle | Turismo SFV Catamarca",
+    "ogImage": null,
+    "twitterImage": null,
+    "images": [
+      "https://turismo.apps.cc.gob.ar/assets/d4035726-b1b1-4bf1-b87f-a96ca8058686?width=800&amp;quality=75&amp;format=webp",
+      "https://turismo.apps.cc.gob.ar/assets/9e509ca2-da15-4445-871e-2fe850dacf84?width=800&amp;quality=75&amp;format=webp",
+      "https://turismo.apps.cc.gob.ar/assets/07fb36d4-8f9d-4d5a-8125-25c0744ff250?width=800&amp;quality=75&amp;format=webp",
+      "https://turismo.apps.cc.gob.ar/assets/bf4602de-fa0a-4899-9ace-a33ba96ed30c?width=800&amp;quality=75&amp;format=webp",
+      "https://sfvc.tur.ar/atractivos/catedral-basilica-nuestra-senora-del-valle/$%7Be.imagen%7D?width=100&height=100&fit=cover"
+    ]
+  },
+  {
+    "url": "https://sfvc.tur.ar/atractivos/plaza-25-de-mayo/",
+    "status": 200,
+    "title": "Plaza 25 de Mayo | Turismo SFV Catamarca",
+    "ogImage": null,
+    "twitterImage": null,
+    "images": [
+      "https://turismo.apps.cc.gob.ar/assets/fd57d6a6-4e45-4b43-90ff-a4bbaa94e7d4?width=800&amp;quality=75&amp;format=webp",
+      "https://turismo.apps.cc.gob.ar/assets/a728a163-9006-4705-9526-33733782ee15?width=800&amp;quality=75&amp;format=webp",
+      "https://turismo.apps.cc.gob.ar/assets/848a792a-de00-4c09-b8cf-b450fcac3ba1?width=800&amp;quality=75&amp;format=webp",
+      "https://turismo.apps.cc.gob.ar/assets/a55c0eeb-92ac-450b-bfe8-2fcb7e3d3fbd?width=800&amp;quality=75&amp;format=webp",
+      "https://sfvc.tur.ar/atractivos/plaza-25-de-mayo/$%7Be.imagen%7D?width=100&height=100&fit=cover"
+    ]
+  }
+]
