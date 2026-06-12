@@ -3,8 +3,7 @@
   "missing": [],
   "dupIds": [],
   "missingAnchors": [],
-  "realImagesOk": true,
-  "cssOk": true,
+  "profileOk": true,
   "refs": [
     "styles.css",
     "assets/photos/catamarca-plaza-25.webp",
@@ -14,8 +13,8 @@
     "script.js"
   ],
   "sizes": {
-    "html": 11740,
-    "css": 20098,
+    "html": 12778,
+    "css": 21341,
     "js": 6968
   }
 }
