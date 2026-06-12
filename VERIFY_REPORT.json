@@ -1,0 +1,17 @@
+{
+  "ok": true,
+  "missing": [],
+  "dupIds": [],
+  "missingAnchors": [],
+  "premiumOk": true,
+  "jsOk": true,
+  "refs": [
+    "styles.css",
+    "script.js"
+  ],
+  "sizes": {
+    "html": 13276,
+    "css": 24163,
+    "js": 9999
+  }
+}
