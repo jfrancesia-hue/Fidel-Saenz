@@ -3,243 +3,206 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Fidel Sáenz — Plataforma territorial de campaña</title>
-  <meta name="description" content="Demo premium de plataforma territorial para campaña: gestión, propuestas, mapa de calor, simulador de crecimiento y comando político." />
-  <meta name="theme-color" content="#0a5a52" />
+  <title>Fidel Sáenz — Capital 2027</title>
+  <meta name="description" content="Demo premium de campaña territorial para San Fernando del Valle de Catamarca: gestión, propuestas, mapa de calor y comando político." />
+  <meta name="theme-color" content="#071b1c" />
   <meta property="og:type" content="website" />
-  <meta property="og:title" content="Fidel Sáenz — Plataforma territorial de campaña" />
-  <meta property="og:description" content="Demo interactiva para presentar gestión, propuestas y crecimiento territorial barrio por barrio." />
+  <meta property="og:title" content="Fidel Sáenz — Capital 2027" />
+  <meta property="og:description" content="Una experiencia política premium para presentar gestión, territorio y proyecto de ciudad." />
   <meta name="twitter:card" content="summary_large_image" />
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Libre+Baskerville:wght@700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&family=Libre+Baskerville:wght@700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="./styles.css" />
 </head>
 <body>
-  <div class="top-demo" role="note">
-    <div class="wrap"><span>Demo de presentación</span><span class="dot"></span><span>Datos de ejemplo</span><span class="dot"></span><span>Nativos Consultora Digital</span></div>
-  </div>
+  <div class="grain" aria-hidden="true"></div>
 
-  <div class="modebar" aria-label="Modo de visualización">
-    <div class="wrap">
-      <span class="mode-label">Cambiar vista</span>
-      <div class="mode-switch" role="tablist" aria-label="Vista de la demo">
-        <button id="modePublic" type="button" role="tab" aria-selected="true">Vista vecino</button>
-        <button id="modeCommand" type="button" role="tab" aria-selected="false">Vista comando</button>
-      </div>
+  <header class="site-header" id="top">
+    <div class="demo-ribbon">
+      <span>Demo estratégica</span>
+      <span>Datos ficticios</span>
+      <span>Nativos Consultora Digital</span>
     </div>
-  </div>
 
-  <nav class="nav" aria-label="Navegación principal">
-    <div class="wrap">
-      <a class="brand" href="#top" aria-label="Fidel Sáenz inicio"><span class="brand-mark">FS</span><span>Fidel Sáenz</span></a>
+    <nav class="nav" aria-label="Navegación principal">
+      <a class="brand" href="#top" aria-label="Inicio Fidel Sáenz">
+        <span class="brand-mark">FS</span>
+        <span class="brand-text"><strong>Fidel Sáenz</strong><small>Capital 2027</small></span>
+      </a>
+
       <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="primaryNav" aria-label="Abrir menú">
         <span></span><span></span><span></span>
       </button>
+
       <div class="nav-links" id="primaryNav">
         <a href="#gestion">Gestión</a>
-        <a href="#propuestas">Propuestas</a>
+        <a href="#vision">Visión</a>
         <a href="#territorio">Territorio</a>
-        <a href="#simulador">Simulador</a>
+        <a href="#comando">Comando</a>
         <a href="#sumate">Sumate</a>
-        <a class="command-only" href="#comando">Comando</a>
       </div>
-      <a class="btn nav-cta" href="#sumate">Sumate</a>
-    </div>
-  </nav>
 
-  <main id="top" class="site-main">
-    <section class="hero">
+      <a class="nav-cta" href="#sumate">Participar</a>
+    </nav>
+
+    <section class="hero" aria-labelledby="heroTitle">
       <div class="hero-copy reveal">
-        <span class="eyebrow">San Fernando del Valle de Catamarca · Capital 2027</span>
-        <h1>La ciudad que viene se construye barrio por barrio</h1>
-        <p>Una demo premium para presentar gestión, ordenar propuestas y visualizar el crecimiento territorial con datos claros, mapas y simulación de campaña.</p>
+        <span class="eyebrow">San Fernando del Valle de Catamarca</span>
+        <h1 id="heroTitle">Una ciudad seria se construye con gestión, territorio y futuro.</h1>
+        <p>Demo de alto impacto para presentar una campaña moderna: trayectoria, prioridades barriales, lectura territorial y una plataforma de comando simple para tomar decisiones.</p>
         <div class="hero-actions">
-          <a class="btn" href="#territorio">Ver mapa territorial</a>
-          <a class="btn secondary" href="#simulador">Proyectar crecimiento</a>
+          <a class="btn primary" href="#territorio">Ver mapa territorial</a>
+          <a class="btn ghost" href="#vision">Explorar propuesta</a>
         </div>
       </div>
-      <div class="portrait-shell reveal" aria-label="Placeholder para retrato de Fidel Sáenz">
-        <div class="portrait-figure" aria-hidden="true"></div>
-        <div class="portrait-label">Espacio para foto oficial de Fidel Sáenz <span>Reemplazable por retrato final de campaña</span></div>
+
+      <div class="hero-visual reveal" aria-label="Composición visual de campaña">
+        <div class="candidate-card">
+          <div class="candidate-glow"></div>
+          <div class="candidate-silhouette" aria-hidden="true">
+            <span class="head"></span><span class="body"></span>
+          </div>
+          <div class="candidate-caption">
+            <strong>Fidel Sáenz</strong>
+            <span>Foto oficial reemplazable</span>
+          </div>
+        </div>
+        <div class="floating-stat stat-a"><strong>+1.322</strong><span>base segmentada</span></div>
+        <div class="floating-stat stat-b"><strong>5 zonas</strong><span>lectura territorial</span></div>
+        <div class="seal">Capital<br>2027</div>
+      </div>
+    </section>
+  </header>
+
+  <main>
+    <section class="manifest reveal" aria-label="Mensaje principal">
+      <p>“La gestión no se promete: se muestra, se ordena y se mide barrio por barrio.”</p>
+      <span>Demo conceptual para presentación política · contenido editable</span>
+    </section>
+
+    <section id="gestion" class="section reveal">
+      <div class="section-kicker">Trayectoria</div>
+      <div class="section-head split">
+        <h2>Gestión con números claros, no con slogans vacíos.</h2>
+        <p>Indicadores demostrativos para contar experiencia pública con una estética seria, sobria y fácil de entender en una reunión.</p>
+      </div>
+      <div class="metrics-grid">
+        <article class="metric"><span class="metric-number" data-count="1000" data-suffix="+">0</span><p>soluciones habitacionales</p></article>
+        <article class="metric"><span class="metric-number" data-count="200" data-suffix="+">0</span><p>escrituras entregadas</p></article>
+        <article class="metric"><span class="metric-number" data-count="122">0</span><p>viviendas en Capital</p></article>
+        <article class="metric"><span class="metric-number" data-count="16">0</span><p>departamentos alcanzados</p></article>
       </div>
     </section>
 
-    <div class="quote-band reveal">
-      <div class="inner">
-        <blockquote>"La gestión se demuestra en cada barrio."</blockquote>
-        <cite>Fidel Sáenz</cite>
+    <section id="vision" class="section vision reveal">
+      <div class="section-kicker">Proyecto de ciudad</div>
+      <div class="section-head centered">
+        <h2>Una campaña ordenada alrededor de problemas reales.</h2>
+        <p>Cuatro ejes base para reemplazar luego con propuestas oficiales, cuidando tono institucional y claridad territorial.</p>
       </div>
-    </div>
-
-    <section id="gestion" class="reveal">
-      <div class="section-head">
-        <div>
-          <span class="demo-pill">Dato de ejemplo</span>
-          <h2>Gestión en números</h2>
-        </div>
-        <p>Indicadores demostrativos para presentar trayectoria y capacidad de ejecución sin tratarlos como datos oficiales.</p>
-      </div>
-      <div class="stats-grid">
-        <article class="stat-card"><div class="stat-number" data-count="1000" data-suffix="+">0</div><div class="stat-label">soluciones habitacionales</div></article>
-        <article class="stat-card"><div class="stat-number" data-count="200" data-suffix="+">0</div><div class="stat-label">escrituras entregadas</div></article>
-        <article class="stat-card"><div class="stat-number" data-count="122">0</div><div class="stat-label">viviendas en la Capital</div></article>
-        <article class="stat-card"><div class="stat-number" data-count="16">0</div><div class="stat-label">departamentos alcanzados</div></article>
-      </div>
-    </section>
-
-    <section id="propuestas" class="reveal">
-      <div class="section-head">
-        <div>
-          <span class="demo-pill">A completar con el candidato</span>
-          <h2>Cuatro ejes para ordenar la conversación</h2>
-        </div>
-        <p>Borradores de mensaje para reemplazar por propuestas reales cuando se defina la plataforma.</p>
-      </div>
-      <div class="axes-grid">
-        <article class="axis-card"><div class="axis-icon">01</div><h3>Vivienda y hábitat</h3><p>A completar con el candidato: acceso al suelo, mejoramiento barrial y acompañamiento a familias jóvenes.</p></article>
-        <article class="axis-card"><div class="axis-icon">02</div><h3>Obra pública barrial</h3><p>A completar con el candidato: prioridades por zona, mantenimiento cercano y obras visibles en la vida diaria.</p></article>
-        <article class="axis-card"><div class="axis-icon">03</div><h3>Municipio digital</h3><p>A completar con el candidato: trámites simples, turnos claros y seguimiento transparente de reclamos.</p></article>
-        <article class="axis-card"><div class="axis-icon">04</div><h3>Trabajo y producción</h3><p>A completar con el candidato: empleo local, proveedores catamarqueños y articulación con sectores productivos.</p></article>
+      <div class="vision-grid">
+        <article class="vision-card featured">
+          <span>01</span>
+          <h3>Vivienda y hábitat</h3>
+          <p>Acceso al suelo, mejoramiento barrial, regularización y acompañamiento a familias jóvenes.</p>
+        </article>
+        <article class="vision-card">
+          <span>02</span>
+          <h3>Obra pública barrial</h3>
+          <p>Prioridades por zona, mantenimiento urbano y obras concretas en la vida diaria.</p>
+        </article>
+        <article class="vision-card">
+          <span>03</span>
+          <h3>Municipio digital</h3>
+          <p>Trámites simples, turnos claros, seguimiento de reclamos y transparencia operativa.</p>
+        </article>
+        <article class="vision-card">
+          <span>04</span>
+          <h3>Trabajo local</h3>
+          <p>Proveedores catamarqueños, economía barrial y articulación con sectores productivos.</p>
+        </article>
       </div>
     </section>
 
-    <section id="territorio" class="reveal">
-      <div class="section-head">
-        <div>
-          <span class="demo-pill">Mapa de calor - dato de ejemplo</span>
-          <h2>Alcance territorial de la campaña</h2>
-        </div>
-        <p>El comando visualiza dónde la campaña está fuerte, dónde necesita presencia y cómo se mueve la base semana a semana.</p>
+    <section id="territorio" class="section territory reveal">
+      <div class="section-kicker">Territorio</div>
+      <div class="section-head split">
+        <h2>El mapa como herramienta de conducción política.</h2>
+        <p>Una visualización simple para explicar dónde hay fortaleza, dónde hace falta presencia y cómo priorizar recorridas.</p>
       </div>
-      <div class="territory-layout">
-        <div class="map-panel">
-          <svg class="map-wrap" viewBox="0 0 720 610" role="img" aria-label="Mapa de calor territorial con zonas de la Capital">
+
+      <div class="territory-board">
+        <div class="map-card">
+          <svg class="map" viewBox="0 0 720 610" role="img" aria-label="Mapa territorial demostrativo">
+            <defs>
+              <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%"><feDropShadow dx="0" dy="18" stdDeviation="18" flood-color="#071b1c" flood-opacity=".2"/></filter>
+            </defs>
             <polygon class="zone" tabindex="0" data-zone="Norte" data-adh="307" data-f="64" points="155,40 388,24 430,176 318,250 158,218 88,122"></polygon>
             <polygon class="zone" tabindex="0" data-zone="Centro" data-adh="412" data-f="86" points="318,250 430,176 558,256 520,398 350,432 238,344"></polygon>
             <polygon class="zone" tabindex="0" data-zone="Sur" data-adh="249" data-f="52" points="238,344 350,432 326,580 120,548 56,412"></polygon>
             <polygon class="zone" tabindex="0" data-zone="Este" data-adh="158" data-f="33" points="558,256 680,318 638,516 520,398"></polygon>
             <polygon class="zone" tabindex="0" data-zone="Oeste" data-adh="196" data-f="41" points="88,122 158,218 238,344 56,412 28,232"></polygon>
-            <text class="zone-label" x="260" y="140">Norte</text>
-            <text class="zone-label" x="398" y="320">Centro</text>
-            <text class="zone-label" x="210" y="485">Sur</text>
-            <text class="zone-label" x="590" y="390">Este</text>
-            <text class="zone-label" x="108" y="292">Oeste</text>
+            <text x="260" y="140">Norte</text><text x="398" y="320">Centro</text><text x="210" y="485">Sur</text><text x="590" y="390">Este</text><text x="108" y="292">Oeste</text>
           </svg>
         </div>
-        <aside class="map-side">
-          <div class="panel" aria-live="polite">
-            <span class="demo-pill">Zona seleccionada</span>
-            <h3 id="zoneTitle">Centro</h3>
-            <div class="zone-big"><span id="zoneAdh">412</span></div>
-            <p>adhesiones de ejemplo · fuerza <strong id="zoneLevel">fuerte</strong> (<span id="zoneForce">86</span>/100)</p>
-            <div class="bar-track" aria-hidden="true"><div id="zoneBar" class="bar-fill"></div></div>
-          </div>
-          <div class="panel">
-            <h3>Leyenda</h3>
-            <div class="legend">
-              <span><i class="swatch" style="background:#207a55"></i>Fuerte</span>
-              <span><i class="swatch" style="background:#76a846"></i>Media-alta</span>
-              <span><i class="swatch" style="background:#d6a92d"></i>Media</span>
-              <span><i class="swatch" style="background:#d96a35"></i>Baja</span>
-            </div>
-          </div>
+        <aside class="territory-panel" aria-live="polite">
+          <span class="panel-label">Zona seleccionada</span>
+          <h3 id="zoneTitle">Centro</h3>
+          <strong id="zoneAdh">412</strong>
+          <p>adhesiones de ejemplo · fuerza <b id="zoneLevel">fuerte</b> (<span id="zoneForce">86</span>/100)</p>
+          <div class="bar"><i id="zoneBar"></i></div>
+          <div class="legend"><span><i class="l-strong"></i>Fuerte</span><span><i class="l-mid"></i>Media</span><span><i class="l-low"></i>Baja</span></div>
         </aside>
       </div>
     </section>
 
-    <section id="simulador" class="reveal">
-      <div class="section-head">
-        <div>
-          <span class="demo-pill">Simulador - dato de ejemplo</span>
-          <h2>Proyección de crecimiento</h2>
-        </div>
-        <p>Una forma simple de mostrar que una base ordenada puede convertirse en movimiento territorial sostenido.</p>
-      </div>
-      <div class="sim-layout">
-        <div class="panel control-stack">
-          <div class="slider-row">
-            <label for="weekly">Adhesiones nuevas por semana <output id="weeklyOut">200</output></label>
-            <input id="weekly" type="range" min="50" max="800" step="10" value="200" aria-label="Adhesiones nuevas por semana" />
-          </div>
-          <div class="slider-row">
-            <label for="weeks">Semanas hasta la elección <output id="weeksOut">28</output></label>
-            <input id="weeks" type="range" min="8" max="40" step="1" value="28" aria-label="Semanas hasta la elección" />
+    <section id="comando" class="section command reveal">
+      <div class="section-kicker">Comando</div>
+      <div class="command-layout">
+        <div class="command-copy">
+          <h2>Un tablero para decidir, no para decorar.</h2>
+          <p>La campaña necesita saber qué zona crece, qué mensaje mueve adhesiones y qué recorrida conviene hacer primero.</p>
+          <div class="mode-switch" role="group" aria-label="Alternar vista de tablero">
+            <button type="button" id="publicMode" aria-pressed="true">Vista pública</button>
+            <button type="button" id="commandMode" aria-pressed="false">Vista comando</button>
           </div>
         </div>
-        <div class="projection-card">
-          <span class="pace-chip" id="paceChip">Ritmo conservador</span>
-          <div class="projection-number" id="projection">6.922</div>
-          <p>base segmentada de 1.322 adhesiones + crecimiento proyectado</p>
-          <svg class="chart" id="projectionChart" viewBox="0 0 760 260" role="img" aria-label="Gráfico de proyección de crecimiento">
-            <path class="area" id="chartArea"></path>
-            <path class="line" id="chartLine"></path>
-          </svg>
+        <div class="dashboard-card">
+          <div class="dashboard-top"><span>Ritmo semanal</span><strong id="paceLabel">Sostenido</strong></div>
+          <div class="projection"><strong id="projection">6.922</strong><span>base proyectada</span></div>
+          <div class="controls">
+            <label>Adhesiones/semana <output id="weeklyOut">200</output><input id="weekly" type="range" min="50" max="800" value="200" step="10"></label>
+            <label>Semanas <output id="weeksOut">28</output><input id="weeks" type="range" min="8" max="40" value="28" step="1"></label>
+          </div>
+          <div class="command-bars" id="commandBars"></div>
         </div>
       </div>
     </section>
 
-    <section id="sumate" class="reveal">
-      <div class="section-head">
-        <div>
-          <span class="demo-pill">Formulario demo</span>
-          <h2>Sumate a la campaña</h2>
+    <section id="sumate" class="section final-cta reveal">
+      <div>
+        <span class="section-kicker">Participación</span>
+        <h2>Una campaña que escucha, ordena y responde.</h2>
+        <p>Formulario demo sin guardado de datos. Sirve para mostrar flujo de adhesión, voluntariado o fiscalización.</p>
+      </div>
+      <form class="join-form" id="joinForm">
+        <label>Nombre<input id="name" type="text" placeholder="Ej: Mariana" autocomplete="off"></label>
+        <label>Zona<input id="zone" type="text" placeholder="Ej: Norte" autocomplete="off"></label>
+        <div class="chips" aria-label="Seleccionar rol">
+          <button class="chip" type="button" aria-pressed="true">Vecino/a</button>
+          <button class="chip" type="button" aria-pressed="false">Voluntario/a</button>
+          <button class="chip" type="button" aria-pressed="false">Fiscal</button>
         </div>
-        <p>El formulario no guarda información: solo muestra una confirmación visual para la demo.</p>
-      </div>
-      <div class="join-layout">
-        <form class="form-card" id="joinForm">
-          <div class="field"><label for="name">Nombre</label><input id="name" type="text" placeholder="Ej: Mariana" autocomplete="off" /></div>
-          <div class="field"><label for="zone">Zona</label><input id="zone" type="text" placeholder="Ej: Norte" autocomplete="off" /></div>
-          <label><strong>Rol</strong></label>
-          <div class="chips" role="group" aria-label="Seleccionar rol">
-            <button class="chip" type="button" aria-pressed="true">Vecino/a</button>
-            <button class="chip" type="button" aria-pressed="false">Voluntario/a</button>
-            <button class="chip" type="button" aria-pressed="false">Fiscal</button>
-          </div>
-          <button class="btn" type="submit">Enviar adhesión</button>
-          <div class="confirm" id="confirm" aria-live="polite"></div>
-        </form>
-        <aside class="feed-card">
-          <div class="feed-head"><h3>Adhesiones en vivo</h3><span class="live">en vivo</span></div>
-          <ul class="feed-list" id="feedList" aria-live="polite"></ul>
-        </aside>
-      </div>
+        <button class="btn primary" type="submit">Enviar adhesión</button>
+        <p class="confirm" id="confirm" aria-live="polite"></p>
+      </form>
     </section>
-
-    <section id="comando" class="command-section reveal">
-      <div class="section-head">
-        <div>
-          <span class="demo-pill">Panel interno - dato de ejemplo</span>
-          <h2>Comando de campaña</h2>
-        </div>
-        <p>Vista interna para seguimiento territorial, KPIs y priorización por zona.</p>
-      </div>
-      <div class="metrics">
-        <article class="metric-card"><strong>1.322</strong><span>base segmentada · 18% sem</span></article>
-        <article class="metric-card"><strong>96.4K</strong><span>alcance redes · 24%</span></article>
-        <article class="metric-card"><strong>184</strong><span>voluntarios · 31%</span></article>
-      </div>
-      <div class="command-grid">
-        <div class="command-card panel">
-          <h3>Adhesiones por zona</h3>
-          <div class="zone-bars" id="commandBars"></div>
-        </div>
-        <div class="command-card panel">
-          <h3>Lectura rápida</h3>
-          <p>Centro sostiene el mayor volumen. Norte consolida crecimiento. Este y Oeste requieren recorridas, reuniones chicas y presencia de referentes locales.</p>
-        </div>
-      </div>
-    </section>
-
-    <div class="notice command-only">Modo comando activo: esta vista muestra datos internos de ejemplo para explicar el potencial de gestión territorial.</div>
   </main>
 
-  <footer>
-    <div class="wrap">
-      <span>Demo de presentación · Datos ficticios de ejemplo</span>
-      <span>Nativos Consultora Digital</span>
-    </div>
+  <footer class="footer">
+    <span>Demo estratégica · datos ficticios para presentación</span>
+    <span>Nativos Consultora Digital · Catamarca, Argentina</span>
   </footer>
 
   <script src="./script.js"></script>

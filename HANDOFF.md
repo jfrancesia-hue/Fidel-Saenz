@@ -4,7 +4,7 @@ Fecha: 2026-06-12
 
 ## Trabajo realizado
 
-Se rediseñó la demo de campaña con una capa visual premium y mejor mantenibilidad.
+Se rehizo la dirección visual de la demo porque la versión anterior no alcanzaba nivel premium. Se reemplazó el enfoque de dashboard genérico por una pieza política/institucional más seria, editorial y de alto impacto.
 
 ### Cambios principales
 
@@ -20,18 +20,18 @@ Se rediseñó la demo de campaña con una capa visual premium y mejor mantenibil
 - Se agregó una capa `PREMIUM REDESIGN 2026-06-12` en CSS.
 - Se agregó menú mobile real con `nav-toggle`, cierre por link y tecla Escape.
 - Se auditó GitHub: `origin/main` sigue en `552d18e Add campaign demo`; no se detectaron commits nuevos al momento de revisar.
-- Se mejoró:
-  - hero;
-  - navegación;
-  - modo vecino/comando;
-  - placeholder de candidato;
-  - quote band;
-  - cards;
+- Se rehizo:
+  - hero editorial de alto impacto;
+  - composición visual del candidato sin foto real;
+  - navegación premium sticky;
+  - manifiesto/quote principal;
+  - métricas de gestión;
+  - ejes de visión política;
   - mapa territorial;
-  - simulador;
-  - formulario;
-  - panel comando;
+  - tablero de comando;
+  - formulario demo;
   - responsive mobile.
+- Se redujo la sensación de template/dashboard genérico.
 
 ## Archivos
 
@@ -49,8 +49,8 @@ Se rediseñó la demo de campaña con una capa visual premium y mejor mantenibil
 `VERIFY_REPORT.json`:
 
 - `ok: true`
-- `premiumOk: true`
-- `mobileNavOk: true`
+- `designOk: true`
+- `mobileOk: true`
 - `jsOk: true`
 - anchors faltantes: 0
 - ids duplicados: 0

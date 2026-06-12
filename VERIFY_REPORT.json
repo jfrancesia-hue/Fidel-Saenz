@@ -3,16 +3,16 @@
   "missing": [],
   "dupIds": [],
   "missingAnchors": [],
-  "premiumOk": true,
-  "mobileNavOk": true,
+  "designOk": true,
+  "mobileOk": true,
   "jsOk": true,
   "refs": [
     "styles.css",
     "script.js"
   ],
   "sizes": {
-    "html": 13593,
-    "css": 25701,
-    "js": 10753
+    "html": 11067,
+    "css": 17236,
+    "js": 6968
   }
 }
