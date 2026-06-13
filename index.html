@@ -189,35 +189,58 @@
       </div>
     </section>
 
-    <section id="territorio" class="section territory reveal">
-      <div class="section-kicker">Territorio</div>
+    <section id="territorio" class="section territory real-territory reveal">
+      <div class="section-kicker">Territorio real</div>
       <div class="section-head split">
-        <h2>El mapa como herramienta de conducción política.</h2>
-        <p>Una visualización simple para explicar dónde hay fortaleza, dónde hace falta presencia y cómo priorizar recorridas.</p>
+        <h2>La Capital se gana escuchando barrio por barrio.</h2>
+        <p>En lugar de un mapa ficticio, esta sección muestra una lectura territorial más creíble: zonas, demandas concretas y una forma clara de salir a conversar con los vecinos.</p>
       </div>
 
-      <div class="territory-board">
-        <div class="map-card">
-          <svg class="map" viewBox="0 0 720 610" role="img" aria-label="Mapa territorial demostrativo">
-            <defs>
-              <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%"><feDropShadow dx="0" dy="18" stdDeviation="18" flood-color="#071b1c" flood-opacity=".2"/></filter>
-            </defs>
-            <polygon class="zone" tabindex="0" data-zone="Norte" data-adh="307" data-f="64" points="155,40 388,24 430,176 318,250 158,218 88,122"></polygon>
-            <polygon class="zone" tabindex="0" data-zone="Centro" data-adh="412" data-f="86" points="318,250 430,176 558,256 520,398 350,432 238,344"></polygon>
-            <polygon class="zone" tabindex="0" data-zone="Sur" data-adh="249" data-f="52" points="238,344 350,432 326,580 120,548 56,412"></polygon>
-            <polygon class="zone" tabindex="0" data-zone="Este" data-adh="158" data-f="33" points="558,256 680,318 638,516 520,398"></polygon>
-            <polygon class="zone" tabindex="0" data-zone="Oeste" data-adh="196" data-f="41" points="88,122 158,218 238,344 56,412 28,232"></polygon>
-            <text x="260" y="140">Norte</text><text x="398" y="320">Centro</text><text x="210" y="485">Sur</text><text x="590" y="390">Este</text><text x="108" y="292">Oeste</text>
-          </svg>
+      <div class="territory-real-board">
+        <figure class="territory-photo-main">
+          <img src="./assets/photos/catamarca-plaza-25.webp" alt="Espacio público de San Fernando del Valle de Catamarca" />
+          <figcaption>
+            <strong>San Fernando del Valle de Catamarca</strong>
+            <span>Centro, barrios, familias, comercios y servicios que necesitan una Municipalidad presente.</span>
+          </figcaption>
+        </figure>
+
+        <div class="territory-agenda-card">
+          <span class="panel-label">Método territorial</span>
+          <h3>Escuchar, priorizar y volver con respuestas.</h3>
+          <ol>
+            <li><strong>Reunión barrial</strong><span>Vecinos, centros vecinales, comerciantes y referentes.</span></li>
+            <li><strong>Problema concreto</strong><span>Luz, limpieza, calles, seguridad urbana, trámites o hábitat.</span></li>
+            <li><strong>Compromiso visible</strong><span>Fecha, responsable y seguimiento público.</span></li>
+          </ol>
         </div>
-        <aside class="territory-panel" aria-live="polite">
-          <span class="panel-label">Zona seleccionada</span>
-          <h3 id="zoneTitle">Centro</h3>
-          <strong id="zoneAdh">412</strong>
-          <p>adhesiones de ejemplo · fuerza <b id="zoneLevel">fuerte</b> (<span id="zoneForce">86</span>/100)</p>
-          <div class="bar"><i id="zoneBar"></i></div>
-          <div class="legend"><span><i class="l-strong"></i>Fuerte</span><span><i class="l-mid"></i>Media</span><span><i class="l-low"></i>Baja</span></div>
-        </aside>
+      </div>
+
+      <div class="zone-real-grid">
+        <article class="zone-real-card active">
+          <span>Centro</span>
+          <h3>Orden urbano y atención rápida</h3>
+          <p>Tránsito, limpieza, veredas, comercios y trámites municipales con respuesta clara.</p>
+        </article>
+        <article class="zone-real-card">
+          <span>Norte</span>
+          <h3>Obras barriales y servicios</h3>
+          <p>Iluminación, calles, espacios comunitarios y presencia municipal sostenida.</p>
+        </article>
+        <article class="zone-real-card">
+          <span>Sur</span>
+          <h3>Hábitat, juventud y trabajo</h3>
+          <p>Mejoras habitacionales, deporte, oficios y oportunidades para familias jóvenes.</p>
+        </article>
+        <article class="zone-real-card">
+          <span>Este / Oeste</span>
+          <h3>Conectividad y cercanía</h3>
+          <p>Recorridas, accesos, mantenimiento urbano y escucha permanente en cada sector.</p>
+        </article>
+      </div>
+
+      <div class="territory-phrase">
+        <p>“La esperanza se organiza cuando cada barrio sabe que fue escuchado.”</p>
       </div>
     </section>
 

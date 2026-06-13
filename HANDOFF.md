@@ -38,6 +38,7 @@ Se rehizo la dirección visual de la demo porque la versión anterior no alcanza
   - sección `Plan Capital 100 días`.
   - sección `Por qué Pocho`.
   - CTA de conversión política con WhatsApp placeholder y roles de campaña.
+- Se reemplazó el mapa SVG ficticio por una sección `Territorio real` con foto de Catamarca Capital, método territorial y tarjetas por zona.
 - Se incorporaron imágenes reales locales:
   - Foto real provista por Jorge como hero principal (`assets/candidate/fidel-04.jpg`).
   - Fotos reales de redes provistas por Jorge para perfil, gestión y galería territorial.
@@ -66,8 +67,8 @@ Se rehizo la dirección visual de la demo porque la versión anterior no alcanza
 `VERIFY_REPORT.json`:
 
 - `ok: true`
-- `messageOk: true`
-- `campaignOk/cssOk`: verificado en iteraciones previas
+- `territoryOk: true`
+- `messageOk/campaignOk/cssOk`: verificado en iteraciones previas
 - anchors faltantes: 0
 - ids duplicados: 0
 - `jsOk`: sintaxis verificada

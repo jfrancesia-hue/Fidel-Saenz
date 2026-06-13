@@ -3,7 +3,16 @@
   "missing": [],
   "dupIds": [],
   "missingAnchors": [],
-  "messageOk": true,
+  "territoryOk": true,
+  "anchors": [
+    "top",
+    "perfil",
+    "gestion",
+    "plan100",
+    "porque",
+    "territorio",
+    "sumate"
+  ],
   "refs": [
     "styles.css",
     "assets/candidate/fidel-04.jpg",
@@ -15,11 +24,12 @@
     "assets/candidate/fidel-02.jpg",
     "assets/candidate/fidel-05.jpg",
     "assets/photos/catamarca-plaza-25.webp",
+    "assets/photos/catamarca-plaza-25.webp",
     "script.js"
   ],
   "sizes": {
-    "html": 17069,
-    "css": 29973,
+    "html": 17399,
+    "css": 33814,
     "js": 6968
   }
 }
