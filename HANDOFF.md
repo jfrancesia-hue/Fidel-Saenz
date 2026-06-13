@@ -33,6 +33,7 @@ Se rehizo la dirección visual de la demo porque la versión anterior no alcanza
   - responsive mobile.
 - Se redujo la sensación de template/dashboard genérico.
 - Se incorporó una paleta más institucional inspirada en Catamarca Ciudad / Municipalidad SFVC: azul ciudad, celeste, blanco y grises sobrios, bajando el verde/dorado previo.
+- Se agregó bloque de confianza `Compromiso con vos`: no prometer todo, escuchar, ordenar y cumplir con seguimiento.
 - Se agregó eje económico/bolsillo:
   - alivio para el bolsillo como primera propuesta;
   - sección `Lo que más preocupa hoy`;
@@ -107,6 +108,7 @@ Se rehizo la dirección visual de la demo porque la versión anterior no alcanza
 `VERIFY_REPORT.json`:
 
 - `ok: true`
+- `commitmentOk: true`
 - `economyOk: true`
 - `mobileOk: true`
 - `completeOk: true`

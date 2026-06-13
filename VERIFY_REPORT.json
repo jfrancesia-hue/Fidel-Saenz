@@ -3,13 +3,14 @@
   "missing": [],
   "dupIds": [],
   "missingAnchors": [],
-  "economyOk": true,
+  "commitmentOk": true,
   "anchors": [
     "top",
     "porque",
     "propuestas",
     "economia",
     "mas-info",
+    "compromiso",
     "escucha",
     "sumate"
   ],
@@ -23,8 +24,8 @@
     "script.js"
   ],
   "sizes": {
-    "html": 11201,
-    "css": 58767,
+    "html": 12115,
+    "css": 60206,
     "js": 8692
   }
 }
