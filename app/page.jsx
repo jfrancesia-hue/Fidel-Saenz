@@ -35,7 +35,7 @@ export default function HomePage() {
           <a className="brand" href="#top"><span className="brand-mark">PS</span><span className="brand-text"><strong>Pocho Sáenz</strong><small>Catamarca Capital 2027</small></span></a>
           <button className="simple-menu-toggle" type="button" aria-expanded={menuOpen} onClick={() => setMenuOpen(!menuOpen)} aria-label="Abrir menú"><span></span><span></span><span></span></button>
           <div className="simple-nav-links" id="simpleNavLinks" onClick={() => setMenuOpen(false)}>
-            <a href="#porque">Por qué</a><a href="#propuestas">Propuestas</a><a href="#fe-identidad">Fe</a><a href="#economia">Economía</a><a href="#mas-info">Saber más</a><a href="#compromiso">Compromiso</a><a href="#escucha">Te escuchamos</a><a href="#sumate">Sumate</a>
+            <a href="#porque">Por qué</a><a href="#propuestas">Propuestas</a><a href="#fe-identidad">Fe</a><a href="#economia">Economía</a><a href="#mas-info">Saber más</a><a href="#compromiso">Compromiso</a><a href="#escucha">Te escuchamos</a><a href="#sumate">Sumate</a><a className="admin-nav-link" href="/admin">Panel demo</a>
           </div>
         </nav>
         <div className="simple-hero-grid">
