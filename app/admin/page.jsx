@@ -24,12 +24,12 @@ const campaigns = [
 ];
 
 export default function AdminPage() {
-  const [logged, setLogged] = useState(false);
+  const [logged, setLogged] = useState(true);
   const [error, setError] = useState('');
   const [leads, setLeads] = useState(demoLeads);
 
   useEffect(() => {
-    setLogged(localStorage.getItem('pochoAdminDemo') === '1');
+    localStorage.setItem('pochoAdminDemo', '1');
     const stored = JSON.parse(localStorage.getItem('campaignLeads') || '[]').map((l, i) => ({ ...l, intent: l.role || 'Vecino/a', score: 88 - i * 3 }));
     if (stored.length) setLeads([...stored, ...demoLeads]);
   }, []);
@@ -63,7 +63,7 @@ export default function AdminPage() {
 
   if (!logged) return <main className="admin-shell"><section className="login-view"><div className="login-card"><div className="brand-pill"><span>PS</span><b>Pocho Sáenz · Capital 2027</b></div><h1>Panel privado de campaña</h1><p>Demo funcional para seguir leads, pauta, agenda territorial y prioridades de vecinos.</p><form onSubmit={login}><label>Usuario<input name="user" placeholder="admin" required /></label><label>Clave<input name="pass" type="password" placeholder="capital2027" required /></label><button>Entrar al dashboard</button><small>Demo: usuario <b>admin</b> · clave <b>capital2027</b>. No usar como seguridad real.</small><p className="error">{error}</p></form></div></section></main>;
 
-  return <main className="admin-shell dashboard-view"><aside className="sidebar"><a className="admin-brand" href="/"><span>PS</span><b>Capital 2027</b></a><nav><a href="#resumen">Resumen</a><a href="#ads">Campañas</a><a href="#crm">CRM</a><a href="#territorio">Territorio</a><a href="#agenda">Agenda</a><a href="#ia">IA</a></nav><button id="logoutBtn" onClick={() => { localStorage.removeItem('pochoAdminDemo'); setLogged(false); }}>Salir</button></aside><div className="dashboard-main"><header className="topbar"><div><span className="eyebrow">Centro de inteligencia electoral</span><h1>Plataforma de campaña</h1><p>Vista demo dinámica con leads locales, campañas simuladas, CRM, agenda territorial y recomendaciones.</p></div><div className="status-card"><b>Demo read-only</b><span>Lista para conectar Supabase + Meta/Google</span><button className="mini-action" onClick={exportDemo}>Exportar reporte</button></div></header>
+  return <main className="admin-shell dashboard-view"><aside className="sidebar"><a className="admin-brand" href="/"><span>PS</span><b>Capital 2027</b></a><nav><a href="#resumen">Resumen</a><a href="#ads">Campañas</a><a href="#crm">CRM</a><a href="#territorio">Territorio</a><a href="#agenda">Agenda</a><a href="#ia">IA</a></nav><a id="logoutBtn" href="/">Volver a la web</a></aside><div className="dashboard-main"><header className="topbar"><div><span className="eyebrow">Centro de inteligencia electoral</span><h1>Plataforma de campaña</h1><p>Vista demo dinámica con leads locales, campañas simuladas, CRM, agenda territorial y recomendaciones.</p></div><div className="status-card"><b>Demo pública read-only</b><span>Acceso abierto temporal · sin datos reales</span><button className="mini-action" onClick={exportDemo}>Exportar reporte</button></div></header>
 
   <section id="resumen" className="section-block"><div className="kpi-grid"><article><span>Leads totales</span><strong>{leadStats.total}</strong><small>incluye formulario demo</small></article><article><span>Costo por lead</span><strong>$428</strong><small>-12% vs semana anterior</small></article><article><span>WhatsApps iniciados</span><strong>{leadStats.whatsapp}</strong><small>67% desde mobile</small></article><article><span>Leads calientes</span><strong>{leadStats.hot}</strong><small>prioridad de contacto</small></article></div></section>
 
