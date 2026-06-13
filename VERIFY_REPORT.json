@@ -3,14 +3,9 @@
   "missing": [],
   "dupIds": [],
   "missingAnchors": [],
-  "simpleOk": true,
-  "sectionCount": 5,
-  "anchors": [
-    "top",
-    "propuestas",
-    "escucha",
-    "sumate"
-  ],
+  "feCount": 2,
+  "esperanzaCount": 1,
+  "hybridOk": true,
   "refs": [
     "styles.css",
     "assets/candidate/fidel-04.jpg",
@@ -20,7 +15,7 @@
     "script.js"
   ],
   "sizes": {
-    "html": 5855,
+    "html": 5889,
     "css": 41872,
     "js": 6968
   }
