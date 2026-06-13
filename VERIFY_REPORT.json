@@ -3,8 +3,7 @@
   "missing": [],
   "dupIds": [],
   "missingAnchors": [],
-  "candidateOk": true,
-  "designOk": true,
+  "paletteOk": true,
   "refs": [
     "styles.css",
     "assets/candidate/fidel-04.jpg",
@@ -19,8 +18,8 @@
     "script.js"
   ],
   "sizes": {
-    "html": 14085,
-    "css": 23396,
+    "html": 14103,
+    "css": 26526,
     "js": 6968
   }
 }
