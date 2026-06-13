@@ -3,34 +3,25 @@
   "missing": [],
   "dupIds": [],
   "missingAnchors": [],
-  "solutionsOk": true,
+  "simpleOk": true,
+  "sectionCount": 5,
   "anchors": [
     "top",
-    "perfil",
-    "gestion",
-    "plan100",
-    "porque",
-    "soluciones",
-    "territorio",
+    "propuestas",
+    "escucha",
     "sumate"
   ],
   "refs": [
     "styles.css",
     "assets/candidate/fidel-04.jpg",
     "assets/candidate/fidel-02.jpg",
-    "assets/candidate/fidel-03.jpg",
-    "assets/photos/catamarca-catedral.webp",
-    "assets/photos/catamarca-catedral-detail.webp",
-    "assets/candidate/fidel-04.jpg",
-    "assets/candidate/fidel-02.jpg",
+    "assets/photos/catamarca-plaza-25.webp",
     "assets/candidate/fidel-05.jpg",
-    "assets/photos/catamarca-plaza-25.webp",
-    "assets/photos/catamarca-plaza-25.webp",
     "script.js"
   ],
   "sizes": {
-    "html": 19872,
-    "css": 36218,
+    "html": 5855,
+    "css": 41872,
     "js": 6968
   }
 }

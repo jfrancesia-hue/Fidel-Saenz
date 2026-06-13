@@ -33,6 +33,12 @@ Se rehizo la dirección visual de la demo porque la versión anterior no alcanza
   - responsive mobile.
 - Se redujo la sensación de template/dashboard genérico.
 - Se incorporó una paleta más institucional inspirada en Catamarca Ciudad / Municipalidad SFVC: azul ciudad, celeste, blanco y grises sobrios, bajando el verde/dorado previo.
+- Se simplificó la web para público masivo/básico:
+  - 5 secciones totales;
+  - navegación reducida;
+  - textos cortos;
+  - foco en entender en 10 segundos;
+  - CTA claros: contar problema, ver propuestas, sumarse.
 - Se agregó una capa de atención/soluciones para que la web no sea solo informativa:
   - sección `La Capital te escucha`;
   - problemas frecuentes: calles, iluminación/seguridad urbana, limpieza/servicios, trámites;
@@ -73,8 +79,9 @@ Se rehizo la dirección visual de la demo porque la versión anterior no alcanza
 `VERIFY_REPORT.json`:
 
 - `ok: true`
-- `solutionsOk: true`
-- `globalOk: true`
+- `simpleOk: true`
+- `sectionCount: 5`
+- `solutionsOk/globalOk`: verificado en iteraciones previas
 - `viviendaCount: 0
 - `territoryOk/messageOk/campaignOk/cssOk`: verificado en iteraciones previas
 - anchors faltantes: 0
