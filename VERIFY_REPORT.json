@@ -3,9 +3,7 @@
   "missing": [],
   "dupIds": [],
   "missingAnchors": [],
-  "feCount": 2,
-  "esperanzaCount": 1,
-  "hybridOk": true,
+  "polishOk": true,
   "refs": [
     "styles.css",
     "assets/candidate/fidel-04.jpg",
@@ -16,7 +14,7 @@
   ],
   "sizes": {
     "html": 5889,
-    "css": 41872,
-    "js": 6968
+    "css": 44610,
+    "js": 7286
   }
 }

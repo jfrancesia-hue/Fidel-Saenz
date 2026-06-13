@@ -33,6 +33,8 @@ Se rehizo la dirección visual de la demo porque la versión anterior no alcanza
   - responsive mobile.
 - Se redujo la sensación de template/dashboard genérico.
 - Se incorporó una paleta más institucional inspirada en Catamarca Ciudad / Municipalidad SFVC: azul ciudad, celeste, blanco y grises sobrios, bajando el verde/dorado previo.
+- Se agregó menú transparente tipo glass que cambia al hacer scroll.
+- Se sumó polish visual: hero con luz suave, foto con marco, hover en cards/fotos, botones más premium y foco accesible.
 - Se hizo un híbrido: estructura simple para público masivo, pero primer impacto emocional con fe/esperanza/confianza.
 - Se simplificó la web para público masivo/básico:
   - 5 secciones totales;
@@ -80,6 +82,7 @@ Se rehizo la dirección visual de la demo porque la versión anterior no alcanza
 `VERIFY_REPORT.json`:
 
 - `ok: true`
+- `polishOk: true`
 - `hybridOk: true`
 - `feCount: 2`
 - `esperanzaCount: 1`

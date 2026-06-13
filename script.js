@@ -17,6 +17,16 @@ function levelFor(force) {
   return { text: 'baja', color: '#d96a35' };
 }
 
+function initScrollNav() {
+  const nav = document.querySelector('.simple-nav') || document.querySelector('.nav');
+  if (!nav) return;
+  function update() {
+    nav.classList.toggle('is-scrolled', window.scrollY > 28);
+  }
+  update();
+  window.addEventListener('scroll', update, { passive: true });
+}
+
 function initReveal() {
   const items = document.querySelectorAll('.reveal');
   if (prefersReduced || !('IntersectionObserver' in window)) {
@@ -184,6 +194,7 @@ function initForm() {
   });
 }
 
+initScrollNav();
 initReveal();
 initCounters();
 initMobileNav();
