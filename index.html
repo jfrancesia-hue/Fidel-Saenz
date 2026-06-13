@@ -22,8 +22,10 @@
   <header class="simple-hero" id="top">
     <nav class="simple-nav" aria-label="Navegación principal">
       <a class="brand" href="#top"><span class="brand-mark">PS</span><span class="brand-text"><strong>Pocho Sáenz</strong><small>Catamarca Capital 2027</small></span></a>
-      <div class="simple-nav-links">
+      <button class="simple-menu-toggle" type="button" aria-expanded="false" aria-controls="simpleNavLinks" aria-label="Abrir menú"><span></span><span></span><span></span></button>
+      <div class="simple-nav-links" id="simpleNavLinks">
         <a href="#propuestas">Propuestas</a>
+        <a href="#mas-info">Saber más</a>
         <a href="#escucha">Te escuchamos</a>
         <a href="#sumate">Sumate</a>
       </div>
@@ -61,6 +63,32 @@
         <article><span>01</span><h3>Servicios que funcionen</h3><p>Limpieza, iluminación, calles, plazas y atención rápida.</p></article>
         <article><span>02</span><h3>Ciudad segura y ordenada</h3><p>Más presencia municipal, espacios cuidados y convivencia.</p></article>
         <article><span>03</span><h3>Trabajo y oportunidades</h3><p>Comercios, jóvenes, oficios, cultura y deporte en cada zona.</p></article>
+      </div>
+    </section>
+
+
+
+    <section id="mas-info" class="simple-section info-modules reveal">
+      <span class="section-kicker">Saber más</span>
+      <h2>Más información, si querés profundizar.</h2>
+      <p>La web sigue simple, pero estos módulos permiten ampliar sin marear al vecino.</p>
+      <div class="module-grid">
+        <details class="module-card">
+          <summary><span>01</span><strong>Plan para la Capital</strong></summary>
+          <p>Servicios al día, limpieza, iluminación, calles, plazas cuidadas y atención municipal con seguimiento.</p>
+        </details>
+        <details class="module-card">
+          <summary><span>02</span><strong>Seguridad urbana</strong></summary>
+          <p>Más iluminación, espacios recuperados, prevención comunitaria y presencia municipal en puntos críticos.</p>
+        </details>
+        <details class="module-card">
+          <summary><span>03</span><strong>Trabajo y jóvenes</strong></summary>
+          <p>Oficios, comercios, emprendedores, deporte, cultura y oportunidades cerca de cada zona.</p>
+        </details>
+        <details class="module-card">
+          <summary><span>04</span><strong>Escucha vecinal</strong></summary>
+          <p>Recibir problemas por barrio, ordenar prioridades y volver con respuestas posibles y concretas.</p>
+        </details>
       </div>
     </section>
 
@@ -117,6 +145,8 @@
     <span>Nativos Consultora Digital · Catamarca</span>
   </footer>
 
+  <a class="float-whatsapp" href="https://wa.me/5493830000000?text=Hola%2C%20quiero%20sumarme%20a%20la%20campaña%20de%20Pocho%20Sáenz" target="_blank" rel="noopener" aria-label="Sumarme por WhatsApp">WhatsApp</a>
+  <a class="mobile-bottom-cta" href="#sumate">Sumarme</a>
   <a class="back-to-top" href="#top" aria-label="Volver al inicio">↑</a>
   <script src="./script.js"></script>
 </body>

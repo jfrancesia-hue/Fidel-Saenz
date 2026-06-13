@@ -3,10 +3,11 @@
   "missing": [],
   "dupIds": [],
   "missingAnchors": [],
-  "navFixedOk": true,
+  "usabilityOk": true,
   "anchors": [
     "top",
     "propuestas",
+    "mas-info",
     "escucha",
     "sumate"
   ],
@@ -20,8 +21,8 @@
     "script.js"
   ],
   "sizes": {
-    "html": 6607,
-    "css": 49773,
-    "js": 7286
+    "html": 8457,
+    "css": 52632,
+    "js": 8692
   }
 }

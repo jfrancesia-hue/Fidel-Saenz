@@ -33,6 +33,13 @@ Se rehizo la dirección visual de la demo porque la versión anterior no alcanza
   - responsive mobile.
 - Se redujo la sensación de template/dashboard genérico.
 - Se incorporó una paleta más institucional inspirada en Catamarca Ciudad / Municipalidad SFVC: azul ciudad, celeste, blanco y grises sobrios, bajando el verde/dorado previo.
+- Se agregaron mejoras de usabilidad:
+  - botón flotante WhatsApp en desktop;
+  - CTA fijo `Sumarme` en mobile;
+  - botón volver arriba;
+  - menú hamburguesa mobile;
+  - sección activa en navegación;
+  - módulos `Saber más` con detalles expandibles para no complicar la lectura principal.
 - Se creó marca básica `Pocho Sáenz · Catamarca Capital 2027` en SVG y favicon.
 - Se reforzó segmentación explícita para Catamarca Capital / San Fernando del Valle en title, metadata, hero, logo, cierre y footer.
 - Se agregó pase final de belleza:
@@ -90,6 +97,7 @@ Se rehizo la dirección visual de la demo porque la versión anterior no alcanza
 `VERIFY_REPORT.json`:
 
 - `ok: true`
+- `usabilityOk: true`
 - `brandOk: true`
 - `capitalCount: 11`
 - `finalOk: true`

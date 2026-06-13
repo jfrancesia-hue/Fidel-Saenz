@@ -17,6 +17,34 @@ function levelFor(force) {
   return { text: 'baja', color: '#d96a35' };
 }
 
+function initSimpleMenu() {
+  const nav = document.querySelector('.simple-nav');
+  const btn = document.querySelector('.simple-menu-toggle');
+  const links = document.querySelectorAll('#simpleNavLinks a');
+  if (!nav || !btn) return;
+  function setOpen(open) {
+    nav.classList.toggle('menu-open', open);
+    btn.setAttribute('aria-expanded', String(open));
+    btn.setAttribute('aria-label', open ? 'Cerrar menú' : 'Abrir menú');
+  }
+  btn.addEventListener('click', () => setOpen(!nav.classList.contains('menu-open')));
+  links.forEach(link => link.addEventListener('click', () => setOpen(false)));
+  document.addEventListener('keydown', event => { if (event.key === 'Escape') setOpen(false); });
+}
+
+function initActiveSection() {
+  const links = [...document.querySelectorAll('#simpleNavLinks a[href^="#"]')];
+  const sections = links.map(link => document.querySelector(link.getAttribute('href'))).filter(Boolean);
+  if (!links.length || !sections.length || !('IntersectionObserver' in window)) return;
+  const io = new IntersectionObserver(entries => {
+    entries.forEach(entry => {
+      if (!entry.isIntersecting) return;
+      links.forEach(link => link.classList.toggle('active', link.getAttribute('href') === '#' + entry.target.id));
+    });
+  }, { rootMargin: '-42% 0px -50% 0px', threshold: 0.01 });
+  sections.forEach(section => io.observe(section));
+}
+
 function initScrollNav() {
   const nav = document.querySelector('.simple-nav') || document.querySelector('.nav');
   if (!nav) return;
@@ -194,6 +222,8 @@ function initForm() {
   });
 }
 
+initSimpleMenu();
+initActiveSection();
 initScrollNav();
 initReveal();
 initCounters();
