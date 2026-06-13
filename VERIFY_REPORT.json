@@ -3,12 +3,10 @@
   "missing": [],
   "dupIds": [],
   "missingAnchors": [],
-  "brandOk": true,
-  "capitalCount": 11,
+  "menuOk": true,
   "refs": [
     "assets/brand/favicon.svg",
     "styles.css",
-    "assets/brand/pocho-capital-logo.svg",
     "assets/candidate/fidel-04.jpg",
     "assets/candidate/fidel-02.jpg",
     "assets/photos/catamarca-plaza-25.webp",
@@ -16,8 +14,8 @@
     "script.js"
   ],
   "sizes": {
-    "html": 6554,
-    "css": 47843,
+    "html": 6534,
+    "css": 48427,
     "js": 7286
   }
 }
