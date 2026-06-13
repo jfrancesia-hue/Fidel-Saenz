@@ -3,7 +3,13 @@
   "missing": [],
   "dupIds": [],
   "missingAnchors": [],
-  "menuOk": true,
+  "navFixedOk": true,
+  "anchors": [
+    "top",
+    "propuestas",
+    "escucha",
+    "sumate"
+  ],
   "refs": [
     "assets/brand/favicon.svg",
     "styles.css",
@@ -14,8 +20,8 @@
     "script.js"
   ],
   "sizes": {
-    "html": 6534,
-    "css": 48427,
+    "html": 6607,
+    "css": 49773,
     "js": 7286
   }
 }
