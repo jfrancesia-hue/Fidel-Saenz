@@ -33,6 +33,7 @@ Se rehizo la dirección visual de la demo porque la versión anterior no alcanza
   - responsive mobile.
 - Se redujo la sensación de template/dashboard genérico.
 - Se incorporó una paleta más institucional inspirada en Catamarca Ciudad / Municipalidad SFVC: azul ciudad, celeste, blanco y grises sobrios, bajando el verde/dorado previo.
+- Se amplió el mensaje para que no quede centrado solo en vivienda/obra: ahora habla de ciudad, servicios, seguridad urbana, trabajo, juventud, comercio, gestión, cercanía y futuro.
 - Se convirtió la landing en herramienta de campaña con:
   - claim principal emocional: “Pocho Sáenz: fe, esperanza y gestión para levantar la Capital”.
   - sección `Plan Capital 100 días`.
@@ -67,7 +68,8 @@ Se rehizo la dirección visual de la demo porque la versión anterior no alcanza
 `VERIFY_REPORT.json`:
 
 - `ok: true`
-- `esperanzaCount: 1`
+- `globalOk: true`
+- `viviendaCount: 0`
 - `territoryOk/messageOk/campaignOk/cssOk`: verificado en iteraciones previas
 - anchors faltantes: 0
 - ids duplicados: 0

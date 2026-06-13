@@ -3,7 +3,8 @@
   "missing": [],
   "dupIds": [],
   "missingAnchors": [],
-  "esperanzaCount": 1,
+  "globalOk": true,
+  "viviendaCount": 0,
   "refs": [
     "styles.css",
     "assets/candidate/fidel-04.jpg",
@@ -19,8 +20,8 @@
     "script.js"
   ],
   "sizes": {
-    "html": 17328,
-    "css": 33977,
+    "html": 17535,
+    "css": 34193,
     "js": 6968
   }
 }
