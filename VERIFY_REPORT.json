@@ -3,8 +3,7 @@
   "missing": [],
   "dupIds": [],
   "missingAnchors": [],
-  "completeOk": true,
-  "sectionCount": 9,
+  "mobileOk": true,
   "anchors": [
     "top",
     "porque",
@@ -24,7 +23,7 @@
   ],
   "sizes": {
     "html": 10052,
-    "css": 53776,
+    "css": 57757,
     "js": 8692
   }
 }
