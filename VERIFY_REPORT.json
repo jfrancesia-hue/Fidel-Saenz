@@ -3,16 +3,7 @@
   "missing": [],
   "dupIds": [],
   "missingAnchors": [],
-  "territoryOk": true,
-  "anchors": [
-    "top",
-    "perfil",
-    "gestion",
-    "plan100",
-    "porque",
-    "territorio",
-    "sumate"
-  ],
+  "esperanzaCount": 1,
   "refs": [
     "styles.css",
     "assets/candidate/fidel-04.jpg",
@@ -28,8 +19,8 @@
     "script.js"
   ],
   "sizes": {
-    "html": 17399,
-    "css": 33814,
+    "html": 17328,
+    "css": 33977,
     "js": 6968
   }
 }

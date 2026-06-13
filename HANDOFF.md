@@ -67,8 +67,8 @@ Se rehizo la dirección visual de la demo porque la versión anterior no alcanza
 `VERIFY_REPORT.json`:
 
 - `ok: true`
-- `territoryOk: true`
-- `messageOk/campaignOk/cssOk`: verificado en iteraciones previas
+- `esperanzaCount: 1`
+- `territoryOk/messageOk/campaignOk/cssOk`: verificado en iteraciones previas
 - anchors faltantes: 0
 - ids duplicados: 0
 - `jsOk`: sintaxis verificada
