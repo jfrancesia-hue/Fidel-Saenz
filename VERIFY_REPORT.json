@@ -3,17 +3,7 @@
   "missing": [],
   "dupIds": [],
   "missingAnchors": [],
-  "campaignOk": true,
-  "cssOk": true,
-  "anchors": [
-    "top",
-    "perfil",
-    "gestion",
-    "plan100",
-    "porque",
-    "territorio",
-    "sumate"
-  ],
+  "messageOk": true,
   "refs": [
     "styles.css",
     "assets/candidate/fidel-04.jpg",
@@ -28,8 +18,8 @@
     "script.js"
   ],
   "sizes": {
-    "html": 17009,
-    "css": 29423,
+    "html": 17069,
+    "css": 29973,
     "js": 6968
   }
 }

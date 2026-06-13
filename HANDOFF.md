@@ -34,7 +34,7 @@ Se rehizo la dirección visual de la demo porque la versión anterior no alcanza
 - Se redujo la sensación de template/dashboard genérico.
 - Se incorporó una paleta más institucional inspirada en Catamarca Ciudad / Municipalidad SFVC: azul ciudad, celeste, blanco y grises sobrios, bajando el verde/dorado previo.
 - Se convirtió la landing en herramienta de campaña con:
-  - claim principal más recordable: “Pocho Sáenz: gestión para ordenar la Capital”.
+  - claim principal emocional: “Pocho Sáenz: fe, esperanza y gestión para levantar la Capital”.
   - sección `Plan Capital 100 días`.
   - sección `Por qué Pocho`.
   - CTA de conversión política con WhatsApp placeholder y roles de campaña.
@@ -66,8 +66,8 @@ Se rehizo la dirección visual de la demo porque la versión anterior no alcanza
 `VERIFY_REPORT.json`:
 
 - `ok: true`
-- `campaignOk: true`
-- `cssOk: true`
+- `messageOk: true`
+- `campaignOk/cssOk`: verificado en iteraciones previas
 - anchors faltantes: 0
 - ids duplicados: 0
 - `jsOk`: sintaxis verificada
