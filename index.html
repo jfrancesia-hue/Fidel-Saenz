@@ -39,6 +39,7 @@
         <a href="#perfil">Perfil</a><a href="#gestion">Gestión</a>
         <a href="#plan100">Plan 100 días</a>
         <a href="#porque">Por qué</a>
+        <a href="#soluciones">Soluciones</a>
         <a href="#territorio">Territorio</a>
         <a href="#sumate">Sumate</a>
       </div>
@@ -189,6 +190,35 @@
       </div>
     </section>
 
+
+
+    <section id="soluciones" class="section neighbor-solutions reveal">
+      <div class="section-kicker">La Capital te escucha</div>
+      <div class="section-head split">
+        <h2>No solo contar propuestas: recibir problemas y volver con respuestas.</h2>
+        <p>Una campaña moderna tiene que abrir canales reales de escucha. Este bloque muestra cómo Pocho puede transformar reclamos vecinos en agenda municipal.</p>
+      </div>
+      <div class="solutions-layout">
+        <div class="solutions-list">
+          <article class="solution-card"><span>01</span><h3>Mi calle necesita arreglo</h3><p>Baches, veredas, accesos, cordones, desagües o mantenimiento pendiente.</p><strong>Respuesta propuesta: relevamiento + prioridad por zona.</strong></article>
+          <article class="solution-card"><span>02</span><h3>Falta luz o seguridad urbana</h3><p>Iluminación, plazas oscuras, espacios abandonados o recorridos inseguros.</p><strong>Respuesta propuesta: mapa de puntos críticos.</strong></article>
+          <article class="solution-card"><span>03</span><h3>Basura, limpieza y servicios</h3><p>Microbasurales, recolección, mantenimiento, espacios verdes y orden urbano.</p><strong>Respuesta propuesta: cuadrillas y seguimiento visible.</strong></article>
+          <article class="solution-card"><span>04</span><h3>Trámites y atención municipal</h3><p>Turnos, expedientes, habilitaciones, reclamos y respuestas que no llegan.</p><strong>Respuesta propuesta: municipio simple y trazable.</strong></article>
+        </div>
+        <aside class="listen-card">
+          <span class="panel-label">Canal vecino</span>
+          <h3>Contanos qué pasa en tu zona.</h3>
+          <p>El objetivo no es prometer todo: es ordenar prioridades, escuchar bien y comprometer respuestas posibles.</p>
+          <div class="listen-steps">
+            <span>1 · Tu barrio</span>
+            <span>2 · El problema</span>
+            <span>3 · Una propuesta</span>
+          </div>
+          <a class="btn primary" href="#sumate">Dejar mi reclamo o idea</a>
+        </aside>
+      </div>
+    </section>
+
     <section id="territorio" class="section territory real-territory reveal">
       <div class="section-kicker">Territorio real</div>
       <div class="section-head split">
@@ -271,7 +301,7 @@
       <div>
         <span class="section-kicker">Sumate a la campaña</span>
         <h2>Ganar la Capital empieza por hablar claro y estar cerca.</h2>
-        <p>Sumarse es construir una ciudad mejor: vecinos, fiscales, voluntarios, jóvenes, comerciantes y referentes para una Capital más cercana.</p>
+        <p>Sumarse también es contar qué pasa en tu cuadra, tu comercio, tu club o tu barrio. La campaña escucha, ordena y convierte problemas reales en agenda de gobierno.</p>
         <div class="conversion-actions">
           <a class="btn primary" href="https://wa.me/5493830000000?text=Hola%2C%20quiero%20sumarme%20a%20la%20campaña%20de%20Pocho%20Sáenz" target="_blank" rel="noopener">Sumarme por WhatsApp</a>
           <a class="btn ghost" href="#territorio">Ver mi zona</a>
@@ -280,13 +310,14 @@
       <form class="join-form" id="joinForm">
         <label>Nombre<input id="name" type="text" placeholder="Ej: Mariana" autocomplete="off"></label>
         <label>Barrio o zona<input id="zone" type="text" placeholder="Ej: Norte / Villa Cubas / Centro" autocomplete="off"></label>
+        <label>¿Qué necesitás que se resuelva?<input id="need" type="text" placeholder="Ej: iluminación, limpieza, calle, trámite, seguridad" autocomplete="off"></label>
         <div class="chips" aria-label="Seleccionar rol">
           <button class="chip" type="button" aria-pressed="true">Vecino/a</button>
           <button class="chip" type="button" aria-pressed="false">Voluntario/a</button>
           <button class="chip" type="button" aria-pressed="false">Fiscal</button>
           <button class="chip" type="button" aria-pressed="false">Referente barrial</button>
         </div>
-        <button class="btn primary" type="submit">Quiero participar</button>
+        <button class="btn primary" type="submit">Enviar mi aporte</button>
         <p class="confirm" id="confirm" aria-live="polite"></p>
       </form>
     </section>

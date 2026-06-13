@@ -33,6 +33,11 @@ Se rehizo la dirección visual de la demo porque la versión anterior no alcanza
   - responsive mobile.
 - Se redujo la sensación de template/dashboard genérico.
 - Se incorporó una paleta más institucional inspirada en Catamarca Ciudad / Municipalidad SFVC: azul ciudad, celeste, blanco y grises sobrios, bajando el verde/dorado previo.
+- Se agregó una capa de atención/soluciones para que la web no sea solo informativa:
+  - sección `La Capital te escucha`;
+  - problemas frecuentes: calles, iluminación/seguridad urbana, limpieza/servicios, trámites;
+  - método de canal vecino;
+  - formulario final con campo “qué necesitás que se resuelva”.
 - Se amplió el mensaje para que no quede centrado solo en vivienda/obra: ahora habla de ciudad, servicios, seguridad urbana, trabajo, juventud, comercio, gestión, cercanía y futuro.
 - Se convirtió la landing en herramienta de campaña con:
   - claim principal emocional: “Pocho Sáenz: fe, esperanza y gestión para levantar la Capital”.
@@ -68,8 +73,9 @@ Se rehizo la dirección visual de la demo porque la versión anterior no alcanza
 `VERIFY_REPORT.json`:
 
 - `ok: true`
+- `solutionsOk: true`
 - `globalOk: true`
-- `viviendaCount: 0`
+- `viviendaCount: 0
 - `territoryOk/messageOk/campaignOk/cssOk`: verificado en iteraciones previas
 - anchors faltantes: 0
 - ids duplicados: 0
