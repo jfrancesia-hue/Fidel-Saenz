@@ -3,9 +3,11 @@
   "missing": [],
   "dupIds": [],
   "missingAnchors": [],
-  "usabilityOk": true,
+  "completeOk": true,
+  "sectionCount": 9,
   "anchors": [
     "top",
+    "porque",
     "propuestas",
     "mas-info",
     "escucha",
@@ -21,8 +23,8 @@
     "script.js"
   ],
   "sizes": {
-    "html": 8457,
-    "css": 52632,
+    "html": 10052,
+    "css": 53776,
     "js": 8692
   }
 }

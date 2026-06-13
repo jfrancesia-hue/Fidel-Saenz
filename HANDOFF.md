@@ -33,6 +33,11 @@ Se rehizo la dirección visual de la demo porque la versión anterior no alcanza
   - responsive mobile.
 - Se redujo la sensación de template/dashboard genérico.
 - Se incorporó una paleta más institucional inspirada en Catamarca Ciudad / Municipalidad SFVC: azul ciudad, celeste, blanco y grises sobrios, bajando el verde/dorado previo.
+- Se ajustó a versión balanceada: más completa que la simple, pero sin volver a una web pesada.
+- Se agregó:
+  - sección `Por qué Pocho`;
+  - plan compacto de 5 puntos;
+  - bloque `Campaña en movimiento`.
 - Se agregaron mejoras de usabilidad:
   - botón flotante WhatsApp en desktop;
   - CTA fijo `Sumarme` en mobile;
@@ -97,6 +102,8 @@ Se rehizo la dirección visual de la demo porque la versión anterior no alcanza
 `VERIFY_REPORT.json`:
 
 - `ok: true`
+- `completeOk: true`
+- `sectionCount: 9`
 - `usabilityOk: true`
 - `brandOk: true`
 - `capitalCount: 11`
