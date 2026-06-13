@@ -1,20 +1,9 @@
 {
   "ok": true,
   "missing": [],
+  "missingRefs": [],
   "dupIds": [],
-  "missingAnchors": [],
-  "faithOk": true,
-  "anchors": [
-    "top",
-    "porque",
-    "propuestas",
-    "fe-identidad",
-    "economia",
-    "mas-info",
-    "compromiso",
-    "escucha",
-    "sumate"
-  ],
+  "adminOk": true,
   "refs": [
     "assets/brand/favicon.svg",
     "styles.css",
@@ -23,13 +12,17 @@
     "assets/photos/catamarca-catedral-detail.webp",
     "assets/photos/catamarca-plaza-25.webp",
     "assets/candidate/fidel-02.jpg",
-    "assets/photos/catamarca-plaza-25.webp",
     "assets/candidate/fidel-05.jpg",
-    "script.js"
+    "admin.html",
+    "script.js",
+    "admin.css",
+    "index.html",
+    "admin.js"
   ],
   "sizes": {
-    "html": 13199,
-    "css": 61459,
-    "js": 8692
+    "index": 13239,
+    "admin": 7154,
+    "adminCss": 6367,
+    "adminJs": 1085
   }
 }

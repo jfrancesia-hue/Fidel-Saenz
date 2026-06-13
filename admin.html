@@ -1,0 +1,140 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="robots" content="noindex,nofollow" />
+  <title>Admin Campaña — Pocho Sáenz</title>
+  <meta name="theme-color" content="#172332" />
+  <link rel="icon" href="./assets/brand/favicon.svg" type="image/svg+xml" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./admin.css" />
+</head>
+<body>
+  <main class="admin-shell">
+    <section class="login-view" id="loginView">
+      <div class="login-card">
+        <div class="brand-pill"><span>PS</span><b>Pocho Sáenz · Capital 2027</b></div>
+        <h1>Panel privado de campaña</h1>
+        <p>Demo funcional para mostrar cómo se podrían seguir leads, Meta Ads, Google Ads y necesidades de vecinos.</p>
+        <form id="loginForm">
+          <label>Usuario<input id="user" type="text" autocomplete="username" placeholder="admin" required></label>
+          <label>Clave<input id="pass" type="password" autocomplete="current-password" placeholder="capital2027" required></label>
+          <button type="submit">Entrar al dashboard</button>
+          <small>Demo: usuario <b>admin</b> · clave <b>capital2027</b>. No usar como seguridad real.</small>
+          <p class="error" id="loginError" role="alert"></p>
+        </form>
+      </div>
+    </section>
+
+    <section class="dashboard-view" id="dashboardView" hidden>
+      <aside class="sidebar">
+        <a class="admin-brand" href="./index.html"><span>PS</span><b>Capital 2027</b></a>
+        <nav>
+          <a href="#resumen">Resumen</a>
+          <a href="#ads">Meta / Google</a>
+          <a href="#leads">Leads</a>
+          <a href="#territorio">Territorio</a>
+          <a href="#ia">Recomendaciones</a>
+        </nav>
+        <button id="logoutBtn">Salir</button>
+      </aside>
+
+      <div class="dashboard-main">
+        <header class="topbar">
+          <div>
+            <span class="eyebrow">Centro de inteligencia electoral</span>
+            <h1>Dashboard de campaña</h1>
+            <p>Vista demo con métricas simuladas para presentar la capacidad de Nativos: pauta, leads, zonas y decisiones.</p>
+          </div>
+          <div class="status-card"><b>Demo read-only</b><span>Listo para conectar APIs reales</span></div>
+        </header>
+
+        <section id="resumen" class="section-block">
+          <div class="kpi-grid">
+            <article><span>Leads totales</span><strong data-kpi="leads">1.284</strong><small>+18% últimos 7 días</small></article>
+            <article><span>Costo por lead</span><strong>$428</strong><small>-12% vs semana anterior</small></article>
+            <article><span>WhatsApps iniciados</span><strong>392</strong><small>67% desde mobile</small></article>
+            <article><span>Barrios activos</span><strong>31</strong><small>5 zonas priorizadas</small></article>
+          </div>
+        </section>
+
+        <section id="ads" class="section-block two-col">
+          <article class="panel">
+            <div class="panel-head"><h2>Meta Ads</h2><span class="badge">simulado</span></div>
+            <div class="metric-list">
+              <p><b>Gasto</b><span>$184.200</span></p>
+              <p><b>Alcance</b><span>96.400</span></p>
+              <p><b>CTR</b><span>3,8%</span></p>
+              <p><b>Leads</b><span>684</span></p>
+            </div>
+            <div class="bar-chart"><i style="height:42%"></i><i style="height:68%"></i><i style="height:82%"></i><i style="height:74%"></i><i style="height:92%"></i><i style="height:66%"></i></div>
+          </article>
+          <article class="panel">
+            <div class="panel-head"><h2>Google Ads</h2><span class="badge">simulado</span></div>
+            <div class="metric-list">
+              <p><b>Gasto</b><span>$96.800</span></p>
+              <p><b>Clicks</b><span>4.821</span></p>
+              <p><b>Consultas</b><span>214</span></p>
+              <p><b>Costo consulta</b><span>$452</span></p>
+            </div>
+            <div class="search-boxes"><span>trámites municipalidad</span><span>reclamos barrio</span><span>trabajo catamarca</span></div>
+          </article>
+        </section>
+
+        <section id="leads" class="section-block two-col">
+          <article class="panel">
+            <div class="panel-head"><h2>Leads por intención</h2><span>últimos 30 días</span></div>
+            <div class="intent-list">
+              <p><b>Problema barrial</b><i><em style="width:86%"></em></i><span>412</span></p>
+              <p><b>Sumarse</b><i><em style="width:58%"></em></i><span>276</span></p>
+              <p><b>Fiscalizar</b><i><em style="width:32%"></em></i><span>154</span></p>
+              <p><b>Comercio/trabajo</b><i><em style="width:49%"></em></i><span>231</span></p>
+            </div>
+          </article>
+          <article class="panel">
+            <div class="panel-head"><h2>Necesidades frecuentes</h2><span>clasificación IA demo</span></div>
+            <ul class="needs-list">
+              <li><b>Iluminación y seguridad urbana</b><span>Alta prioridad</span></li>
+              <li><b>Calles, baches y veredas</b><span>Alta prioridad</span></li>
+              <li><b>Trabajo joven / oficios</b><span>Media-alta</span></li>
+              <li><b>Trámites y atención</b><span>Media</span></li>
+            </ul>
+          </article>
+        </section>
+
+        <section id="territorio" class="section-block">
+          <div class="panel">
+            <div class="panel-head"><h2>Mapa operativo por zona</h2><span>prioridad semanal</span></div>
+            <div class="zone-grid">
+              <article><b>Centro</b><span>Comercio · tránsito · trámites</span><strong>84%</strong></article>
+              <article><b>Norte</b><span>Iluminación · calles · plazas</span><strong>72%</strong></article>
+              <article><b>Sur</b><span>Jóvenes · deporte · trabajo</span><strong>68%</strong></article>
+              <article><b>Este</b><span>Servicios · accesos · limpieza</span><strong>53%</strong></article>
+              <article><b>Oeste</b><span>Recorridas · referentes</span><strong>49%</strong></article>
+            </div>
+          </div>
+        </section>
+
+        <section id="ia" class="section-block">
+          <div class="panel ai-panel">
+            <div>
+              <span class="eyebrow">Recomendación IA demo</span>
+              <h2>Qué haría esta semana</h2>
+            </div>
+            <ol>
+              <li>Crear pieza corta sobre iluminación + seguridad urbana para Norte y Este.</li>
+              <li>Activar campaña de WhatsApp para vecinos con reclamos de calles/veredas.</li>
+              <li>Separar leads de “trabajo joven” y convocarlos a una escucha específica.</li>
+              <li>Medir costo por conversación, no solo clicks.</li>
+            </ol>
+          </div>
+        </section>
+      </div>
+    </section>
+  </main>
+  <script src="./admin.js"></script>
+</body>
+</html>
